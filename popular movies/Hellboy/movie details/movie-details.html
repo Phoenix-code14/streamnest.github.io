@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hellboy:The Croocked Man</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body id="#top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  
+
+ 
+<header></header>
+
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #MOVIE DETAIL
+      -->
+
+      <section class="movie-detail">
+        <div class="container">
+
+          <figure class="movie-detail-banner">
+
+            <img src="OIP.jpg" alt="hellboy">
+<a href="video/video.html">
+            <button class="play-btn">
+              <ion-icon name="play-circle-outline"></ion-icon>
+            </button>
+          </a>
+          </figure>
+
+          <div class="movie-detail-content">
+
+            <p class="detail-subtitle">New Episodes</p>
+
+            <h1 class="h1 detail-title">
+              Hellboy:<strong>The Croocked Man</strong>
+            </h1>
+
+            <div class="meta-wrapper">
+
+              <div class="badge-wrapper">
+                <div class="badge badge-fill">PG-13</div>
+
+                <div class="badge badge-outline">HD</div>
+              </div>
+
+              <div class="ganre-wrapper">
+                <a href="#">Action,</a>
+
+                <a href="#">Fantasy</a>
+
+                <a href="#">Horror</a>
+
+                <a href="#"></a>
+              </div>
+
+              <div class="date-time">
+
+                <div>
+                  <ion-icon name="calendar-outline"></ion-icon>
+
+                  <time datetime="2024">2024</time>
+                </div>
+
+                <div>
+                  <ion-icon name="time-outline"></ion-icon>
+
+                  <time datetime="PT115M">1h 40m</time>
+                </div>
+
+              </div>
+
+            </div>
+
+            <p class="storyline">
+              Hellboy and a rookie BPRD agent get stranded in 1950s rural Appalachia. There, they discover a small community haunted by witches, led by a local devil with a troubling connection to Hellboy's past: the Crooked Man.
+              <br>Director: Brian Taylor<br>
+Writers:Mike Mignola, Christopher Golden, Mike Mignola<br>
+Stars: Jack Kesy, Jefferson White, Adeline Rudolph
+ <div class="details-actions">
+
+              <button class="share" onclick="copyLink()">
+                <ion-icon name="share-social"></ion-icon>
+
+                <span>Share</span>
+                
+              </button>
+
+              <div class="title-wrapper">
+                <p class="title">Prime Video</p>
+
+                <p class="text">Streaming Channels</p>
+              </div>
+<a href="./video/video.html">
+              <button class="btn btn-primary">
+                <ion-icon name="play"></ion-icon>
+
+                <span>Watch Now</span>
+              </button>
+            </a>
+            </div>
+            <span id="copyMessage" style="display: none; color: green; margin-bottom: 5px;"></span>
+            <a href="https://ik2mqisu1w.b34zobxzxs73nkfxike1.cfd/res/614774a84bca32182e1b81d831542d9a/8f4d5afdc708e318b8f0feb5c1abfc97/Hellboy_The_Crooked_Man_(2024)_TS_720p_(fzmovies.net)_d940e9adce4f97419634e233a2320f7d.mkv?fromwebsite" download class="download-btn">
+              <span>Download</span>
+
+              <ion-icon name="download-outline"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+     
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script>
+    function copyLink() {
+      const link = "https://streamnestv.blogspot.com/";
+      navigator.clipboard.writeText(link).then(() => {
+        const message = document.getElementById("copyMessage");
+        message.innerText = "Link copied";
+        message.style.display = "inline"; // Show the message
+        setTimeout(() => {
+          message.style.display = "none"; // Hide the message after 5 seconds
+        }, 5000);
+      }).catch(err => {
+        console.error("Could not copy text: ", err);
+      });
+    }
+  </script>
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
